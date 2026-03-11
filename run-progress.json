@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-03-11T18:28:43Z",
+  "updated_at": "2026-03-11T18:29:05Z",
   "status": "running",
   "phase": "training",
   "experiment_commit": "6dd891a",
-  "num_steps": 105,
+  "num_steps": 106,
   "training_loss": [
     8.447798,
     8.247885,
@@ -106,6 +106,7 @@
     6.656699,
     6.657279,
     6.651403,
-    6.648344
+    6.648344,
+    6.643399
   ]
 }
