@@ -1,0 +1,34 @@
+{
+  "updated_at": "2026-03-11T17:35:00Z",
+  "machine_class": "Apple Silicon M4 16GB",
+  "source_repo": "autoresearch-mlx",
+  "source_branch": "autoresearch/mar11-air",
+  "best_experiment_commit": "ca4f2c5",
+  "parent_best_commit": "590532b",
+  "val_bpb": 2.157564,
+  "training_seconds": 301.7,
+  "total_seconds": 342.9,
+  "peak_vram_mb": 5636.0,
+  "num_steps": 127,
+  "recipe": {
+    "TOTAL_BATCH_SIZE": "2^15",
+    "DEVICE_BATCH_SIZE": 8,
+    "FINAL_EVAL_BATCH_SIZE": 16,
+    "MATRIX_LR": 0.03,
+    "WEIGHT_DECAY": 0.15,
+    "ADAM_BETAS": [
+      0.8,
+      0.95
+    ],
+    "EMBEDDING_LR": 0.6,
+    "UNEMBEDDING_LR": 0.004,
+    "SCALAR_LR": 0.5,
+    "WARMUP_RATIO": 0.0,
+    "WARMDOWN_RATIO": 0.5,
+    "FINAL_LR_FRAC": 0.0,
+    "DEPTH": 4,
+    "HEAD_DIM": 128,
+    "WINDOW_PATTERN": "SSSL"
+  },
+  "summary": "Best current shared recipe on this hardware class: lower matrix LR to 0.03 and lower weight decay to 0.15, with the Apple Silicon-safe batch settings."
+}
