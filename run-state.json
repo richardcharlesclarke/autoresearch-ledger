@@ -1,11 +1,12 @@
 {
-  "updated_at": "2026-03-11T18:03:55Z",
-  "status": "running",
-  "machine": "m4-16gb-air",
-  "owner": "Rich",
-  "title": "Raise Adam beta1 to 0.90",
-  "experiment_commit": "ed48790",
-  "parent_best_commit": "d56039c",
-  "source_branch": "autoresearch/mar11-air",
-  "notes": "Experiment 05 is running from the current shared best recipe to test whether a further increase in beta1 helps."
+  "updated_at": "2026-03-11T18:22:00Z",
+  "status": "idle",
+  "phase": null,
+  "machine": null,
+  "owner": null,
+  "title": null,
+  "experiment_commit": null,
+  "parent_best_commit": null,
+  "source_branch": null,
+  "notes": null
 }
