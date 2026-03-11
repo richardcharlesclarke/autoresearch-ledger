@@ -1,12 +1,18 @@
 {
-  "updated_at": "2026-03-11T18:24:01Z",
+  "updated_at": "2026-03-11T18:24:24Z",
   "status": "running",
   "phase": "training",
   "experiment_commit": "6dd891a",
-  "num_steps": 6,
+  "num_steps": 12,
   "training_loss": [
     8.447798,
     8.247885,
-    8.109813
+    8.109813,
+    8.027159,
+    7.964735,
+    7.906819,
+    7.858529,
+    7.806488,
+    7.770243
   ]
 }
